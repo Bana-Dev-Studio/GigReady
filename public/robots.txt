@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gigready.com/sitemap.xml
+Sitemap: https://tomasmank.github.io/GigReady/sitemap.xml
