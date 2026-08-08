@@ -29,14 +29,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_BASE_PATH: /gigready/
-
-      - name: Debug build
-        run: |
-          echo "=== DIST ==="
-          find dist -maxdepth 2 -type f | sort
-          echo "=== INDEX ==="
-          cat dist/index.html
+          VITE_BASE_PATH: /GigReady/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,11 +38,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-
-      - name: Verify artifact
-        run: |
-          echo "=== ARTIFACT SOURCE ==="
-          find dist -type f | sort
 
       - name: Deploy
         uses: actions/deploy-pages@v4
