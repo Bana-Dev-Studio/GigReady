@@ -1,6 +1,10 @@
 
 
 export function ConversionSection() {
+  // Obtenemos el base path de forma segura
+const basePath = import.meta.env.VITE_BASE_PATH || '/'
+// Limpiamos la barra final si existe para evitar doble barra (ej: "/GigReady//app")
+const cleanBase = basePath === '/' ? '' : basePath.replace(/\/$/, '')
   return (
     <section className="rounded-3xl border border-slate-800/80 bg-slate-900/70 p-8 shadow-panel">
       <div className="max-w-3xl">
@@ -22,7 +26,7 @@ export function ConversionSection() {
             </p>
           </div>
           <a
-            href="/app"
+            href={`${cleanBase}/app`}
             className="mt-6 inline-flex items-center justify-center rounded-2xl bg-sky-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-400"
           >
             Ir a la app

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GigReady</title>
+    <!-- Script de redirección para SPAs en GitHub Pages -->
+    <script type="text/javascript">
+      // Redirige cualquier 404 de vuelta a la raíz pasando la ruta actual como parámetro
+      var pathSegmentsToKeep = 1; // Deja el nombre del repo (/GigReady/)
+      var l = window.location;
+      var repo = l.pathname.split('/')[1]; // Captura "GigReady"
+      
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/' + repo + '/?p=/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/') +
+        (l.search ? '&q=' + l.search.slice(1) : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
