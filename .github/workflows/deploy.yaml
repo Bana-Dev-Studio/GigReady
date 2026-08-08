@@ -46,5 +46,10 @@ jobs:
         with:
           path: ./dist
 
+      - name: Verify artifact
+        run: |
+          echo "=== ARTIFACT SOURCE ==="
+          find dist -type f | sort
+
       - name: Deploy
         uses: actions/deploy-pages@v4
