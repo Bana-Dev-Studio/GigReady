@@ -1,0 +1,137 @@
+{
+  "songs": [
+    {
+      "id": "multitrack-vencio-marcos-witt",
+      "title": "Multitrack Venció - Marcos Witt",
+      "bpm": 120,
+      "stems": [
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-1",
+          "label": "Bass",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Bass.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-2",
+          "label": "BGVS",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/BGVS.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-3",
+          "label": "Bones",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Bones.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-4",
+          "label": "Brass",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Brass.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-5",
+          "label": "Click",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Click.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-6",
+          "label": "Drums",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Drums.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-7",
+          "label": "EG1",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/EG1.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-8",
+          "label": "Fx",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Fx.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-9",
+          "label": "Horns",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Horns.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-10",
+          "label": "Keys 1 16",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Keys 1 -16.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-11",
+          "label": "Keys 2",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Keys 2.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-12",
+          "label": "Loop Drum",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Loop Drum.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-13",
+          "label": "Loop Estrofa",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Loop Estrofa.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-14",
+          "label": "Loop",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Loop.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-15",
+          "label": "Organs",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Organs.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-16",
+          "label": "Pentagon",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Pentagon.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-17",
+          "label": "Piano",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Piano.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        },
+        {
+          "id": "multitrack-vencio-marcos-witt-stem-18",
+          "label": "Saxo",
+          "audioUrl": "/api/mock-stems/multitrack-vencio-marcos-witt/Saxo.wav",
+          "mimeType": "audio/wav",
+          "durationMs": 0
+        }
+      ]
+    }
+  ]
+}

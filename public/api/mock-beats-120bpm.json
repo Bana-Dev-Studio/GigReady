@@ -1,0 +1,488 @@
+{
+  "trackId": "mock-120bpm-30s",
+  "durationMs": 30000,
+  "bpm": 120,
+  "clickTrackUrl": "/api/metronomo_stem_120bpm.mp3",
+  "markers": [
+    {
+      "beatIndex": 1,
+      "measure": 1,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 0,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 2,
+      "measure": 1,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 3,
+      "measure": 1,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 1000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 4,
+      "measure": 1,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 1500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 5,
+      "measure": 2,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 2000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 6,
+      "measure": 2,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 2500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 7,
+      "measure": 2,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 3000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 8,
+      "measure": 2,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 3500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 9,
+      "measure": 3,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 4000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 10,
+      "measure": 3,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 4500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 11,
+      "measure": 3,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 5000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 12,
+      "measure": 3,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 5500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 13,
+      "measure": 4,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 6000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 14,
+      "measure": 4,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 6500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 15,
+      "measure": 4,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 7000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 16,
+      "measure": 4,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 7500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 17,
+      "measure": 5,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 8000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 18,
+      "measure": 5,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 8500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 19,
+      "measure": 5,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 9000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 20,
+      "measure": 5,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 9500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 21,
+      "measure": 6,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 10000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 22,
+      "measure": 6,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 10500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 23,
+      "measure": 6,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 11000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 24,
+      "measure": 6,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 11500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 25,
+      "measure": 7,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 12000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 26,
+      "measure": 7,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 12500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 27,
+      "measure": 7,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 13000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 28,
+      "measure": 7,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 13500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 29,
+      "measure": 8,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 14000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 30,
+      "measure": 8,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 14500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 31,
+      "measure": 8,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 15000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 32,
+      "measure": 8,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 15500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 33,
+      "measure": 9,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 16000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 34,
+      "measure": 9,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 16500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 35,
+      "measure": 9,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 17000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 36,
+      "measure": 9,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 17500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 37,
+      "measure": 10,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 18000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 38,
+      "measure": 10,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 18500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 39,
+      "measure": 10,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 19000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 40,
+      "measure": 10,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 19500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 41,
+      "measure": 11,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 20000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 42,
+      "measure": 11,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 20500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 43,
+      "measure": 11,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 21000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 44,
+      "measure": 11,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 21500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 45,
+      "measure": 12,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 22000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 46,
+      "measure": 12,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 22500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 47,
+      "measure": 12,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 23000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 48,
+      "measure": 12,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 23500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 49,
+      "measure": 13,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 24000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 50,
+      "measure": 13,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 24500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 51,
+      "measure": 13,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 25000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 52,
+      "measure": 13,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 25500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 53,
+      "measure": 14,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 26000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 54,
+      "measure": 14,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 26500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 55,
+      "measure": 14,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 27000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 56,
+      "measure": 14,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 27500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 57,
+      "measure": 15,
+      "beatInMeasure": 1,
+      "label": "1",
+      "timeMs": 28000,
+      "confidence": 100
+    },
+    {
+      "beatIndex": 58,
+      "measure": 15,
+      "beatInMeasure": 2,
+      "label": "2",
+      "timeMs": 28500,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 59,
+      "measure": 15,
+      "beatInMeasure": 3,
+      "label": "3",
+      "timeMs": 29000,
+      "confidence": 80
+    },
+    {
+      "beatIndex": 60,
+      "measure": 15,
+      "beatInMeasure": 4,
+      "label": "4",
+      "timeMs": 29500,
+      "confidence": 80
+    }
+  ]
+}
