@@ -2,7 +2,7 @@ export function UseCasesSection() {
   const useCases = [
     {
       title: 'Para bandas',
-      description: 'Organizá ensayos con click track, tempo y stems para que cada músico llegue preparado y alineado.',
+      description: 'Organizá ensayos con click track, tempo y stems para que cada músico llegue preparado y alineado al vivo.',
     },
     {
       title: 'Para equipos de worship',
@@ -10,10 +10,13 @@ export function UseCasesSection() {
     },
     {
       title: 'Para ensayos con stems',
-      description: 'Separá pistas, controlá el volumen y reducí la fricción cuando necesitás trabajar por capas.',
+      description: 'Separá pistas, controlá el volumen de cada instrumento y reducí la fricción cuando necesitás trabajar por capas.',
     },
   ]
-
+// Obtenemos el base path de forma segura
+const basePath = import.meta.env.VITE_BASE_PATH || '/'
+// Limpiamos la barra final si existe para evitar doble barra (ej: "/GigReady//app")
+const cleanBase = basePath === '/' ? '' : basePath.replace(/\/$/, '')
   return (
     <section id="casos-de-uso" className="rounded-3xl border border-slate-800/80 bg-slate-900/70 p-8 shadow-panel">
       <div className="max-w-2xl">
@@ -22,7 +25,7 @@ export function UseCasesSection() {
           Pensado para ensayos más claros y menos improvisaciones innecesarias
         </h2>
         <p className="mt-4 text-base leading-7 text-slate-300">
-          Ya sea que trabajes con una banda, un equipo de worship o con stems para preparar canciones, GigReady ayuda a poner orden al ensayo.
+          Ya sea que ensayes con una banda de rock, un equipo de worship o utilices multitracks para preparar repertorios, GigReady aporta orden y precisión técnica.
         </p>
       </div>
 
@@ -37,7 +40,7 @@ export function UseCasesSection() {
 
       <div className="mt-8 flex flex-wrap gap-3">
         <a
-          href="/app"
+          href={`${cleanBase}/app`}
           className="inline-flex items-center justify-center rounded-2xl bg-sky-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-400"
         >
           Probar la app
