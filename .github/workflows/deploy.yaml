@@ -31,6 +31,13 @@ jobs:
         env:
           VITE_BASE_PATH: /gigready/
 
+      - name: Debug build
+        run: |
+          echo "=== DIST ==="
+          find dist -maxdepth 2 -type f | sort
+          echo "=== INDEX ==="
+          cat dist/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
