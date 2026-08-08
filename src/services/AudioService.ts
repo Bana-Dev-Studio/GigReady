@@ -77,11 +77,14 @@ export class AudioService {
 
   private async ensureSoundTouchNode(): Promise<void> {
     if (this.stNode) return
-
+  // Obtenemos el base path de forma segura
+const basePath = import.meta.env.VITE_BASE_PATH || '/'
+// Limpiamos la barra final si existe para evitar doble barra (ej: "/GigReady//app")
+const cleanBase = basePath === '/' ? '' : basePath.replace(/\/$/, '')
     try {
       if (!this.isWorkletRegistered) {
         console.debug('[AudioService] Registrando procesador SoundTouch desde /public...')
-        const workletUrl = new URL('/soundtouch-processor.js', window.location.origin).href
+        const workletUrl = new URL(`${cleanBase}/soundtouch-processor.js`, window.location.origin).href
         await this.ctx!.audioWorklet.addModule(workletUrl)
         this.isWorkletRegistered = true
         console.debug('[AudioService] AudioWorklet registrado con éxito.')
